@@ -274,7 +274,8 @@ export class SentimentAnalysisService {
       'terrible', 'awful', 'horrible', 'disgusting', 'disappointing', 'pathetic',
       'atrocious', 'dreadful', 'appalling', 'abysmal', 'bad', 'hate', 'dislike',
       'annoying', 'frustrating', 'useless', 'worthless', 'poor', 'worst',
-      'unacceptable', 'inadequate', 'inferior', 'defective', 'faulty'
+      'unacceptable', 'inadequate', 'inferior', 'defective', 'faulty', 'disappointment'
+      
     ];
     
     const neutralWords = [
