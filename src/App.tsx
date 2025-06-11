@@ -144,21 +144,21 @@ function App() {
                 <span>Advanced Text Preprocessing</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 <span>Ensemble AI Models</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                 <span>Context-Aware Analysis</span>
               </div>
             </div>
           </div>
           
           {!hasApiToken && (
-            <div className="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg inline-block">
-              <div className="flex items-center gap-2 text-yellow-800">
+            <div className="mt-4 p-3 bg-purple-50 border border-purple-200 rounded-lg inline-block">
+              <div className="flex items-center gap-2 text-purple-800">
                 <AlertCircle size={16} />
-                <span className="text-sm">Running in enhanced demo mode with advanced accuracy features</span>
+                <span className="text-sm">Running in enhanced mode with advanced accuracy features</span>
               </div>
             </div>
           )}
@@ -225,8 +225,8 @@ function App() {
             )}
 
             {/* Enhanced Features Footer */}
-            <div className="bg-white rounded-xl shadow-lg p-8 border border-gray-200 mt-12">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4 text-center">Enhanced Analysis Capabilities</h3>
+            <div className="bg-green-50 rounded-xl shadow-lg p-8 border border-green-200 mt-12">
+              <h3 className="text-xl font-semibold text-green-800 mb-4 text-center">Enhanced Analysis Capabilities</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="p-3 bg-blue-100 rounded-lg inline-block mb-3">
